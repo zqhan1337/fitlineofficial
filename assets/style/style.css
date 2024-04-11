@@ -1,0 +1,1847 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+html{
+    background: rgb(240,243,245);
+    background: linear-gradient(90deg, rgba(240,243,245,1) 0%, rgba(230,235,240,1) 100%);
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .container .razdel .razdel-click{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 800;
+ 
+
+}
+
+.header .container .razdel a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.header .container .icons .icon .fa-magnifying-glass{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .icons .icon:hover .fa-magnifying-glass{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .icons .icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+   
+}
+.header .container .icons .icon .fa-cart-shopping{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .icons .icon:hover .fa-cart-shopping{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .icons .icon .fa-house{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .icons .icon:hover .fa-house{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+.kurs .container{
+    display: flex;
+}
+.kurs .container .fitnes .fitness-platform{
+    font-family:'Manrope';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+.kurs .container .fitnes .grind{
+    font-family:'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+   
+}
+
+
+.kurs .container .fitnes .choice{
+    width: 250px;
+    height: 60px;
+    background: none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+}
+.kurs .container .fitnes .choice:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.kurs .container .woman-fitness{
+    width: 612px;
+    height: 500px;
+    background: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.choicing{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.choicing .container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.choicing .container .choice-kurs{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+}
+
+.choicing .container .kurs{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+
+.choicing .container .kurs .frst{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.choicing .container .kurs .frst:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+
+
+
+.choicing .container .kurs .frst .woman-yo{
+    background: url(../img/2.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.choicing .container .kurs .frst .yo{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.choicing .container .kurs .scnd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.choicing .container .kurs .scnd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.choicing .container .kurs .scnd .woman-ras{
+    background: url(../img/3.png);
+    width: 238px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .scnd .ras{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.choicing .container .kurs .thd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.choicing .container .kurs .thd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.choicing .container .kurs .thd .woman-hiit{
+    background: url(../img/4.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .thd .hiit{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.choicing .container .btn .all{
+    width: 252px;
+    height: 58px;
+    background:none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 75px;
+}
+.choicing .container .btn .all:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.choicing .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.free .container .freetry{
+    width: 100%;
+    height: 492px;
+    border-radius: 20px;
+    background: url(../img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.free .container .freetry .text{
+    padding-left: 100px;
+    padding-top: 155px;
+}
+
+.free .container .freetry .text .freetrytxt{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.free .container .freetry .text .watch{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.free .container .freetry .text .btntry{
+    width: 252px;
+    height: 58px;
+    background-color: #3586ff;
+    font-family: 'Manrope';
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #3586ff;
+    border-radius: 9px;
+    transition: .5s;
+
+}
+.free .container .freetry .text .btntry:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+.onlinekrs{
+    margin-top: 160px;
+}
+.onlinekrs .container{
+    display: flex;
+    flex-direction: column;
+}
+.onlinekrs .container .block1{
+    display: flex;
+    justify-content: space-between;
+}
+.onlinekrs .container .block1 .woman{
+    width: 560px;
+    height: 344px;
+    border-radius: 15px;
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.onlinekrs .container .block1 .textkurs{
+    display: flex;
+    flex-direction: column;
+}
+.onlinekrs .container .block1 .textkurs .onkr{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.onlinekrs .container .block1 .textkurs .ras{
+    font-family: "Manrope";
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.onlinekrs .container .block1 .textkurs .classic{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.onlinekrs .container .block1 .textkurs .daterei{
+    display: flex;
+    justify-content: space-between;
+}
+.onlinekrs .container .block1 .textkurs .daterei .high{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.onlinekrs .container .block1 .textkurs .daterei .high h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.onlinekrs .container .block1 .textkurs .daterei .high .star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onlinekrs .container .block1 .textkurs .daterei .high .star i{
+    height: 16px;
+    width: 16px;
+}
+.onlinekrs .container .block1 .textkurs .daterei .high .star h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .week i{
+    width: 16px; 
+    height: 16px;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .week h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .trening{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .trening i{
+    width: 16px; 
+    height: 16px;
+}
+.onlinekrs .container .block1 .textkurs .daterei .date .trening h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.onlinekrs .container .block1 .textkurs .cost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    align-items: center;
+}
+.onlinekrs .container .block1 .textkurs .cost h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.onlinekrs .container .block1 .textkurs .cost .buy{
+    width: 252px;
+    height: 58px;
+    background: none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+}
+
+.onlinekrs .container .block1 .textkurs .cost .buy:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch{
+    width: 100%;
+    overflow: hidden;
+
+}
+.onlinekrs .container .block2 .infofit .perecluch .line{
+    width: 300%;
+    display: flex;
+    
+    
+    
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .text .photo{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+    
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ .perecluch .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color: #3586ff;
+    color: white;
+    transition: .3s;
+}
+.onlinekrs .container .block2{
+    margin-top: 60px;
+}
+.onlinekrs .container .block2 .infofit input{
+    display: none;
+}
+
+.onlinekrs .container .block2 .infofit label{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    transition: .5s;
+    margin-right: 40px;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch{
+    margin-top: 40px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .text h3{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo h2{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch .line .photo h4{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos{
+    width: 260px;
+    height: 274px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .frst{
+    background: url(../img/7.png);
+    width: 109px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .scnd{
+    background: url(../img/8.png);
+    width: 164px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .thd{
+    background: url(../img/9.png);
+    width: 196px;
+    height: 190px;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch .line .text1{
+    opacity: 0;
+    transition: .5s;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .frst1{
+    background: url(../img/гантели.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .scnd1{
+    background: url(../img/велдо.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .thd1{
+    background: url(../img/бокс.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .frst2{
+    background: url(../img/качество.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .scnd2{
+    background: url(../img/прогресс.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+.onlinekrs .container .block2 .infofit .perecluch .line .photo .photos .thd2{
+    background: url(../img/img_203330.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+
+.about{
+    background-color: #f1f4f8;
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .abottxtbtn h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about .container .abottxtbtn h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+}
+.about .container .abottxtbtn .more{
+    width: 252px;
+    height: 58px;
+    background-color: #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #3586ff;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 60px;
+}
+.about .container .abottxtbtn .more:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+.about .container .aboutimg{
+    display: flex;
+   
+}
+.about .container .aboutimg .womanabout{
+    margin-top: 40px;
+    background: url(../img/10.jpg);
+    width: 560px;
+    height: 402px;
+    border-radius: 25px;
+}
+
+.howwork{
+    margin-top: 150px;
+}
+.howwork .container{
+    display: flex;
+    flex-direction: column;
+}
+.howwork .container .big{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.howwork .container .work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.howwork .container .work .n1 h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3586ff;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    width: 60px;
+    text-align: center;
+}
+.howwork .container .work .n1 h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.howwork .container .work .n1 h4{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.personal{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.personal .container{
+    background: rgb(230,235,240);
+    background: linear-gradient(90deg, rgba(230,235,240,1) 0%, rgba(240,243,245,1) 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.personal .container .persobalpl{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.personal .container .opis{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.personal .container .nametel{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/2.2);
+    margin-bottom: 15px;
+}
+.personal .container .nametel h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.personal .container .nametel input{
+    width: 250px;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.personal .container .em{
+    width: calc(100%/2.2);
+}
+.personal .container .em .mail{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.personal .container .em input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.personal .container .our{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: calc(100%/2.2);
+    margin-top: 25px;
+}
+.personal .container .check{
+    display: flex;
+    width: calc(100%/2.2);
+    margin-bottom: 30px;
+    align-items: center;
+}
+.personal .container .check label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.personal .container .check input{
+    margin-left: 0;
+    margin-right: 0;
+    height: 15px;
+    width: 15px;
+}
+.personal .container .check .frst{
+    display: flex;
+    align-items: center;
+}
+
+.personal .container .check .scnd{
+    display: flex;
+    align-items: center;
+    
+}
+.personal .container .check .thd{
+    display: flex;
+    align-items: center;
+}
+
+.personal .container .agree{
+    width: calc(100%/2.2);
+}
+.personal .container .agree input{
+    margin-left: 0;
+    height: 15px;
+    width: 15px;
+}
+.personal .container .agree label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.personal .container .agree{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.personal .container .continue{
+    width: 252px;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 9px;
+    transition: .5s;
+}
+.personal .container .continue:hover{
+    background-color: #3586ff;
+    color: white;
+    transition: .5s;
+}
+.footer{
+    margin-bottom: 60px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container .prava h3{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer .container .soc{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/9.2);
+    align-items: center;
+}
+.footer .container .pol{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.footer .container .pol a{
+    color: black;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .footer .container{
+        width: 95%;
+    }
+    .personal .container{
+        width: 95%;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.7);
+    }
+    .personal .container .em{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .our{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .check{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .agree{
+        width: calc(100%/1.7) !important;
+    }
+    .personal{
+        margin-top: 50px;
+    }
+    .howwork {
+        margin-top: 50px;
+    }
+    .howwork .container .work{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .howwork .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .container .abottxtbtn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .container .abottxtbtn h3{
+        text-align: center;
+    }
+    .about{
+        padding-top: 50px;
+    }
+    .onlinekrs .container .block1 .woman{
+        width: 360px;
+    }
+    .onlinekrs .container .block1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .onlinekrs .container .block2 .perecluch .line .text .photo .photos{
+        width: 220px;
+    }
+    .onlinekrs .container .block2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .onlinekrs .container .block2 .perecluch .line .text h3{
+        width: calc(100%/4);
+        margin-right: 10px;
+    }
+    .free .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .free .container .freetry .text{
+        padding-left: 30px;
+    }
+    .choicing .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .choicing{
+        margin-top: 50px;
+    }
+    .choicing .container .kurs{
+        margin-top: 30px;
+    }
+    .choicing .container .kurs .frst,
+    .choicing .container .kurs .scnd,
+    .choicing .container .kurs .thd{
+        width: 300px !important;
+    }
+    .kurs .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kurs .container .fitnes .fitness-platform{
+        margin-top: 0;
+        text-align: center;
+    }
+    .kurs .container .fitnes .grind{
+        text-align: center;
+    }
+    .kurs .container .fitnes a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .kurs .container .woman-fitness{
+        margin-top: 70px;
+    }
+    .header .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header .container .icons{
+        width: calc(100%/7.3);
+    }
+    .header .container .razdel .razdel-click{
+        margin-right: 40px;
+    }
+    .header .container .razdel .razdel-click:nth-child(1){
+        margin-left: 25px;
+    }
+    .header .container .razdel .razdel-click:nth-child(5){
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.3);
+    }
+    .personal .container .em{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .our{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .check{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .agree{
+        width: calc(100%/1.3) !important;
+    }
+    .howwork .container .work{
+        width: 70%;
+    }
+    .onlinekrs .container .block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .onlinekrs .container .block1 .woman{
+        margin-bottom: 30px;
+        width: 560px;
+    }
+    .onlinekrs .container .block2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .onlinekrs .container .block2 .infofit label{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo{
+        width: 100%;
+    }
+
+    .choicing .container .kurs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .choicing .container .kurs .frst{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .choicing .container .kurs .scnd{
+        margin-left: 10px;
+    }
+    .header .container .razdel a{
+        margin-right: 10px !important;
+    }
+    .header .container .icons{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    .footer .container .soc {
+        width: calc(100%/7);
+    }
+    .personal .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .personal .container .persobalpl{
+        text-align: center;
+        line-height: 40px;
+    }
+    .personal .container .opis{
+        text-align: center;
+        font-size: 16px;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.08);
+    }
+    .personal .container .em{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .our{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .check{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .agree{
+        width: calc(100%/1.08) !important;  
+    }
+    .howwork .container .work{
+        width: 90%;
+    }
+    .onlinekrs .container .block2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .onlinekrs .container .block2 .infofit label{
+        margin-right: 0px;
+        
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .free .container .freetry .text{
+        width: calc(100%/2.2);
+        padding-top: 50px;
+    }
+    .choicing .container .kurs .frst{
+        margin-right: 0;
+    }
+    .choicing .container .kurs .scnd{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .kurs .container .woman-fitness{
+        width: 512px;
+        height: 430px;
+    }
+    .header .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header .container .icons a{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .container .icons .icon .fa-magnifying-glass{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .icon .fa-cart-shopping{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .icon .fa-house{
+        height: 15px !important;
+        width: 16px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .kurs .container .woman-fitness{
+        width: 450px;
+        height: 380px;
+    }
+    .header .container .logotype img{
+        width: 84px;
+        height: 15px;
+    }
+    .header .container .razdel .razdel-click{
+        font-size: 12px;
+    }
+    .header .container .razdel .razdel-click:nth-child(1){
+        margin-left: 0;
+    }
+    .header .container .razdel .razdel-click:nth-child(5){
+        margin-right: 0 !important;
+    }
+    .header .container .icons a{
+        height: 20px;
+        width: 20px;
+    }
+    .header .container .icons .icon .fa-magnifying-glass{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .icon .fa-cart-shopping{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .icon .fa-house{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container{
+        margin-bottom: 50px;
+    }
+    .kurs .container .fitnes .fitness-platform{
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .kurs .container .fitnes .grind{
+        font-size: 16px;
+    }
+    .kurs .container .fitnes .choice{
+        width: 230px;
+        height: 50px;
+    }
+    .choicing .container .choice-kurs{
+        font-size: 32px;
+    }
+   
+    .choicing .container .kurs .frst{
+        width: 200px !important;
+        height: 240px !important;
+        margin-right: 10px;
+    }
+    .choicing .container .kurs .frst .woman-yo{
+        height: 181px !important;
+        width: 142px;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .frst .yo{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .choicing .container .kurs .scnd{
+        width: 200px !important;
+        height: 240px !important;
+        margin-left: 10px;
+    }
+    .choicing .container .kurs .scnd .woman-ras{
+        width: 172px !important;
+        height: 171px !important;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .scnd .ras{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .choicing .container .kurs .thd{
+        width: 200px !important;
+        height: 240px !important;
+    }
+    .choicing .container .kurs .thd .woman-hiit{
+        width: 152px !important;
+        height: 197px !important;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .thd .hiit{
+        font-size: 16px;
+    }
+    .choicing .container .btn .all{
+        width: 230px;
+        height: 50px;
+    }
+    .choicing{
+        margin-bottom: 100px;
+    }
+    .free .container .freetry .text{
+        padding-top: 25px;
+    }
+    .onlinekrs{
+        margin-top: 100px;
+    }
+    .onlinekrs .container .block1 .woman{
+        width: 450px;
+    }
+    .onlinekrs .container .block1 .textkurs .onkr{
+        font-size: 14px;
+    }
+    .onlinekrs .container .block1 .textkurs .ras{
+        font-size: 32px;
+    }
+    .onlinekrs .container .block1 .textkurs .classic{
+        font-size: 16px;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .high{
+        width: 220px;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .date{
+        width: 220px;
+    }
+    .onlinekrs .container .block1{
+        padding: 0;
+    }
+    .onlinekrs .container .block1 .textkurs .cost h2{
+        font-size: 32px;
+    }
+    .onlinekrs .container .block1 .textkurs .cost .buy{
+        width: 230px;
+        height: 50px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text h3{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos{
+        width: 190px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text1 .photo .photos .thd{
+        width: 188px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text3 .photo .photos .thd2{
+        width: 166px;
+        height: 174px;
+        margin-bottom: 17px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text3 .photo .photos .scnd2{
+        width: 171px;
+        height: 171px;
+        margin-bottom: 17px;
+    }
+    .about .container .abottxtbtn h2{
+        font-size: 32px;
+    }
+    .about .container .abottxtbtn h3{
+        font-size: 16px;
+    }
+    .about .container .abottxtbtn .more{
+        width: 230px;
+        height: 50px;
+    }
+    .about .container .aboutimg{
+        width: 450px;
+    }
+    .howwork .container .big{
+        font-size: 32px;
+    }
+    .howwork .container .work h2{
+        font-size: 12px !important;
+    }
+    .howwork .container .work h3{
+        font-size: 16px !important;
+    }
+    .howwork .container .work h4{
+        font-size: 12px !important;
+    }
+    .personal .container .persobalpl{
+        font-size: 32px;
+    }
+    .personal .container .opis{
+        font-size: 13px;
+    }
+    .personal .container .nametel {
+        width: calc(100%/1.1);
+    }
+    .personal .container .nametel .name input{
+        width: 190px;
+    }
+    .personal .container .nametel .tel input{
+        width: 190px;
+    }
+    .personal .container .nametel h3{
+        font-size: 12px !important;
+    }
+    .personal .container .em h3{
+        font-size: 12px !important;
+    }
+    .personal .container .our{
+        font-size: 12px !important;
+    }
+    .personal .container .check label{
+        font-size: 12px !important;
+    }
+    .personal .container .agree label{
+        font-size: 12px !important;
+    }
+    .personal .container .continue{
+        width: 230px;
+        height: 50px;
+    }
+    .footer .container{
+        padding: 0;
+    }
+    .footer .container .prava h3{
+        font-size: 10px;
+    }
+    .footer .container .pol a{
+        font-size: 10px;
+    }
+    .footer .container .soc{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header .container{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .header .container .logotype img{
+        width: 69px;
+        height: 13px;
+    }
+    .header .container .razdel .razdel-click{
+        font-size: 10px !important;
+    }
+    .header .container .razdel{
+        width: calc(100%/2.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header .container .razdel .razdel-click:nth-child(3){
+        margin-right: 0 !important;
+    }
+    .header .container .icons{
+        width: calc(100%/4.7);
+    }
+    .kurs .container .fitnes .fitness-platform{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .kurs .container .fitnes .grind{
+        font-size: 15px;
+    }
+    .kurs .container .fitnes .choice{
+        width: 200px;
+        height: 45px;
+    }
+    .kurs .container .woman-fitness{
+        width: 292px;
+        height: 240px;
+
+    }
+    .choicing .container{
+        padding: 0;
+    }
+    .choicing .container .choice-kurs{
+        font-size: 22px;
+    }
+    
+    .choicing .container .kurs .frst{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .frst .woman-yo{
+        height: 150px !important;
+        width: 117px;
+        margin-top: 5px;
+    }
+    .choicing .container .kurs .frst .yo{
+        margin-top: 5px;
+    }
+    .choicing .container .kurs .scnd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .scnd .woman-ras{
+        width: 123px !important;
+        height: 123px !important;
+        margin-top: 10px;
+    }
+    .choicing .container .kurs .scnd .ras{
+        margin-top: 20px;
+    }
+
+    .choicing .container .kurs .thd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .thd .woman-hiit{
+        width: 115px !important;
+        height: 155px !important;
+        margin-top: 10px;
+    }
+    .choicing .container .kurs .scnd .ras{
+        margin-top: 20px;
+    }
+    .choicing .container .btn .all{
+        width: 200px;
+        height: 45px;
+    }
+    .free .container .freetry{
+        background-position-x: -520px;
+    }
+    .free .container .freetry .text{
+        padding-left: 10px;
+    }
+    .free .container .freetry .text .freetrytxt{
+        font-size: 32px;
+    }
+    .free .container .freetry .text .watch{
+        font-size: 16px;
+        margin-bottom: 40px;
+        text-align: start !important;
+    }
+    .free .container .freetry .text .btntry{
+        width: 240px;
+    }
+    .onlinekrs .container .block1 .woman{
+        width: 280px;
+    }
+    .onlinekrs .container .block1 .textkurs .onkr{
+        font-size: 12px !important;
+        text-align: start !important;
+    }
+    .onlinekrs .container .block1 .textkurs .ras{
+        font-size: 22px !important;
+        
+    }
+    .onlinekrs .container .block1 .textkurs .classic{
+        font-size: 14px;
+        text-align: start !important;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .high{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .high h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .date{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .onlinekrs .container .block1 .textkurs .daterei .date h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    
+    
+    .onlinekrs .container .block1 .textkurs .cost h2{
+        font-size: 22px;
+    }
+    .onlinekrs .container .block1 .textkurs .cost .buy{
+        width: 140px;
+        padding: 0;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text h3{
+        font-size: 14px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos{
+        width: 161px;
+        height: 220px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos .thd{
+        background-position-x: 20px !important;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos .frst2{
+        width: 163px;
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos .scnd2{
+        width: 131px
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos .thd2{
+        width: 131px
+    }
+    .onlinekrs .container .block2 .infofit .perecluch .line .text .photo .photos .scnd1{
+        width: 131px
+    }
+    .onlinekrs .container .block2 .infofit label{
+        font-size: 14px;
+    }
+    .about{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .about .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about .container .abottxtbtn h2{
+        font-size: 22px;
+    }
+    .about .container .abottxtbtn h3{
+        font-size: 14px;
+    }
+    .about .container .abottxtbtn .more{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .about .container .aboutimg{
+        display: flex;
+        justify-content: center;
+        width: 280px;
+    }
+    .about .container .aboutimg .womanabout{
+        width: 280px;
+        background-position-x: -60px;
+    }
+    .howwork .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howwork .container .big{
+        font-size: 22px;
+    }
+    .howwork .container .work{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howwork .container .work h2,h3,h4{
+        text-align: center !important;
+    }
+    .howwork .container .work h2{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .personal .container{
+        padding-top: 50px;
+    }
+    .personal .container .persobalpl{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .personal .container .opis{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .personal .container .nametel{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .personal .container .nametel .name{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .nametel .name input{
+        width: 100%;
+    }
+    .personal .container .nametel .tel{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .nametel .tel input{
+        width: 100%;
+    }
+    .personal .container .em{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .em input{
+        width: 100%;
+    }
+    .personal .container .our{
+        display: flex;
+        justify-content: start;
+    }
+    .personal .container .check{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .continue{
+        width: 200px !important;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .container .soc{
+        width: calc(100%/4);
+    }
+    
+    
+    
+}
+
+
